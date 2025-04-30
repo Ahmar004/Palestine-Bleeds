@@ -22,17 +22,17 @@ https://www.linkedin.com/in/ahmarali2004/
 
 # List of Contributors: (in making the UI)
 
-### 1. Shahzaib Ali
-
-https://github.com/ShahzaibAli-1
-
-https://www.linkedin.com/in/shahzaib-ali-khan-64511224b/
-
-### 2. Mohammad Hassaan
+### 1. Mohammad Hassaan
 
 https://github.com/MasterOz786
 
 https://www.linkedin.com/in/mohammad-hassaan-4b413b264/
+
+### 2. Shahzaib Ali
+
+https://github.com/ShahzaibAli-1
+
+https://www.linkedin.com/in/shahzaib-ali-khan-64511224b/
 
 <br/>
 
