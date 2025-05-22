@@ -1,3 +1,5 @@
+## NOTE: The current (most-updated) branch used for deployment is the "individual_Cases_feature" branch, so if anyone wnats to contribute, then they should see that branch.
+
 # Palestine-Bleeds
 **This is for saving the verified Organisations & verified donation links to help Palestinians,**
 
@@ -22,17 +24,26 @@ https://www.linkedin.com/in/ahmarali2004/
 
 # List of Contributors: (in making the UI)
 
-### 1. Shahzaib Ali
+### 1. Ahmar Ali
+I have collected and verified the donation links; initially and after each public contribution as well.
 
-https://github.com/ShahzaibAli-1
+To contact me:
 
-https://www.linkedin.com/in/shahzaib-ali-khan-64511224b/
+https://github.com/Ahmar004/
+
+https://www.linkedin.com/in/ahmarali2004/
 
 ### 2. Mohammad Hassaan
 
 https://github.com/MasterOz786
 
 https://www.linkedin.com/in/mohammad-hassaan-4b413b264/
+
+### 3. Shahzaib Ali
+
+https://github.com/ShahzaibAli-1
+
+https://www.linkedin.com/in/shahzaib-ali-khan-64511224b/
 
 <br/>
 
