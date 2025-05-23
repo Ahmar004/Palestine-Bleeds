@@ -13114,43 +13114,6 @@ const individuals = [
   },
 
     //------------------------
-    //Ahmad Matar:------------------------
-    //------------------------
-
-
-  {
-    name: "Ahmad Matar",
-    sideNote: "For verification of residence in Gaza and for verifying/sharing payments, kindly contact him directly through LinkedIn.",
-    
-    //couple booleans for displaying ways of donations upon availability:
-
-    isContactAvailable: false,       //contact number is available
-    isGofundmeAvailable: true,       //gofundme link is available
-    isPakDonationPossible: true,     //pakistani donation procedure is available
-    isWhatsappAvailable: false,       //whatsapp link is available
-    isLinkedinAvailable: true,      //linkedin link is available
-    isLinktreeAvailable: false,      //lintree link is not available
-    isChuffedAvailable: false,       //chuffed link is not available
-    isPaypalAvailable: false,        //paypal is available
-    
-
-    //donation links and social media contacts:
-
-    gofundmeLink:
-    { name: "His GoFundMe Campaign", url: "https://www.gofundme.com/f/ahmed-matars-fundraiser" },
-
-    pakDonationProcedure: [
-      { name: "A donation procedure for Pakistanis is available, kindly contact Ahmad directly on LinkedIn to get the details." }
-    ],
-
-    linkedinLink:
-    {
-        name: "His LinkedIn", url: "https://www.linkedin.com/in/ahmad-matar-%F0%9F%8D%89-740342b5/"
-    }
-    
-  },
-
-    //------------------------
     //Dr Abdallah H. Abdou:------------------------
     //------------------------
 
