@@ -13018,12 +13018,7 @@ const individuals = [
     { name: "Her GoFundMe Campaign", url: "https://gofund.me/f24fd054" },
   
     pakDonationProcedure: [
-      { name: "For Pakistanis, transfer to the following account & share receipt with both Rania and Ahmar:" },
-      { name: "Account Holder's Name: Ahmar Ali"},
-      { name: "Bank Name: NayaPay"},
-      { name: "IBAN: PK45NAYA1234503085602065"},
-      { name: "Account Number: 4782780019901787"},
-      { name: "Contact Ahmar: +92 3085602065"}
+      { name: "A donation procedure for Pakistanis is available, kindly contact Rania directly on WhatsApp to get the details." }
     ],
 
     whatsAppLink:
@@ -13060,11 +13055,7 @@ const individuals = [
     { name: "His GoFundMe Campaign", url: "https://gofund.me/49dbdc1f" },
 
     pakDonationProcedure: [
-      { name: "For Pakistanis, transfer to the following account & share receipt with both Adham and Zubair:" },
-      { name: "Account Holder's Name: Muhammad Zubair Hanif"},
-      { name: "Bank Name: EasyPaisa/JazzCash"},
-      { name: "Account Number: 03012401554"},
-      { name: "Contact Zubair: +92 3012401554"}
+      { name: "A donation procedure for Pakistanis is available, kindly contact Adham directly on WhatsApp to get the details." }
     ],
 
     whatsAppLink:
@@ -13079,48 +13070,7 @@ const individuals = [
     
   },
 
-    //------------------------
-    //Ahmad Matar:------------------------
-    //------------------------
-
-
-  {
-    name: "Ahmad Matar",
-    sideNote: "For verification of residence in Gaza and for verifying/sharing payments, kindly contact him directly through LinkedIn.",
-    
-    //couple booleans for displaying ways of donations upon availability:
-
-    isContactAvailable: false,       //contact number is available
-    isGofundmeAvailable: true,       //gofundme link is available
-    isPakDonationPossible: true,     //pakistani donation procedure is available
-    isWhatsappAvailable: false,       //whatsapp link is available
-    isLinkedinAvailable: true,      //linkedin link is available
-    isLinktreeAvailable: false,      //lintree link is not available
-    isChuffedAvailable: false,       //chuffed link is not available
-    isPaypalAvailable: false,        //paypal is available
-    
-
-    //donation links and social media contacts:
-
-    gofundmeLink:
-    { name: "His GoFundMe Campaign", url: "https://www.gofundme.com/f/ahmed-matars-fundraiser" },
-
-    pakDonationProcedure: [
-      { name: "For Pakistanis, transfer to the following account & share receipt with both Ahmad and Qasim:" },
-      { name: "Account Holder's Name: Qasim Zia SALM"},
-      { name: "Bank Name: JazzCash"},
-      { name: "Account Number: 03225457873"},
-      { name: "Contact Zubair: +92 3225457873"}
-    ],
-
-    linkedinLink:
-    {
-        name: "His LinkedIn", url: "https://www.linkedin.com/in/ahmad-matar-%F0%9F%8D%89-740342b5/"
-    }
-    
-  },
-
-    //------------------------
+      //------------------------
     //Haya Gaza:------------------------
     //------------------------
 
@@ -13161,6 +13111,43 @@ const individuals = [
     }
     
 
+  },
+
+    //------------------------
+    //Ahmad Matar:------------------------
+    //------------------------
+
+
+  {
+    name: "Ahmad Matar",
+    sideNote: "For verification of residence in Gaza and for verifying/sharing payments, kindly contact him directly through LinkedIn.",
+    
+    //couple booleans for displaying ways of donations upon availability:
+
+    isContactAvailable: false,       //contact number is available
+    isGofundmeAvailable: true,       //gofundme link is available
+    isPakDonationPossible: true,     //pakistani donation procedure is available
+    isWhatsappAvailable: false,       //whatsapp link is available
+    isLinkedinAvailable: true,      //linkedin link is available
+    isLinktreeAvailable: false,      //lintree link is not available
+    isChuffedAvailable: false,       //chuffed link is not available
+    isPaypalAvailable: false,        //paypal is available
+    
+
+    //donation links and social media contacts:
+
+    gofundmeLink:
+    { name: "His GoFundMe Campaign", url: "https://www.gofundme.com/f/ahmed-matars-fundraiser" },
+
+    pakDonationProcedure: [
+      { name: "A donation procedure for Pakistanis is available, kindly contact Ahmad directly on LinkedIn to get the details." }
+    ],
+
+    linkedinLink:
+    {
+        name: "His LinkedIn", url: "https://www.linkedin.com/in/ahmad-matar-%F0%9F%8D%89-740342b5/"
+    }
+    
   },
 
     //------------------------
@@ -13603,6 +13590,7 @@ const individuals = [
 
   // Add more cases, after comma with last struct here above...
 ];
+
 
 
 function renderIndividuals({ individual: e, delay: t }) {
