@@ -12254,7 +12254,7 @@ function Qw() {
                         })
                     ]
                 }),
-                // Button below
+                // Button below the message...
                 M.jsx("a", {
                     href: "https://chat.whatsapp.com/BSBVjzHGQMeEBZZVWbbbGz",
                     target: "_blank",
@@ -12271,8 +12271,6 @@ function Qw() {
         })
     });
 }
-
-
 
 function Yw({
     title: e,
