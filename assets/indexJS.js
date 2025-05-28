@@ -13477,10 +13477,9 @@ const individuals = [
     isPakDonationPossible: false,     //local pakistani donation procedure is not available
     isWhatsappAvailable: false,       //whatsapp link is available
     isLinkedinAvailable: true,      //linkedin link is not available
-    isLinktreeAvailable: false,       //lintree link is available
-    isChuffedAvailable: false,       //chuffed link is available
-    isPaypalAvailable: false,        //paypal is available
-
+    isLinktreeAvailable: false,       //lintree link is not available
+    isChuffedAvailable: false,       //chuffed link is not available
+    isPaypalAvailable: false,        //paypal is not available
 
     //donation links and social media contacts:
 
