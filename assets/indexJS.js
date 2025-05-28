@@ -12234,34 +12234,45 @@ function Qw() {
             y: 0
         },
         transition: {
-            delay: .3,
-            duration: .6
+            delay: 0.3,
+            duration: 0.6
         },
-        className: "bg-gradient-to-r from-red-700 to-red-600 py-4 emergency-pulse",
+        className: "bg-gradient-to-r from-red-700 to-red-600 py-10 emergency-pulse", // Increased outer vertical padding
         children: M.jsxs("div", {
-            className: "container mx-auto px-4 text-center flex items-center justify-center space-x-4",
-            children: [M.jsx("span", {
-                className: "inline-block w-3 h-3 bg-white rounded-full animate-ping"
-            }), M.jsx("p", {
-                    className: "text-lg md:text-xl font-semibold text-white",
-                    children : "Kindly join Palestine-Bleeds community on WhatsApp and contribute!",
+            className: "container mx-auto px-4 text-center py-4", // Added inner vertical padding
+            children: [
+                // Row: ping + message
+                M.jsxs("div", {
+                    className: "flex items-center justify-center space-x-4 mb-4",
+                    children: [
+                        M.jsx("span", {
+                            className: "inline-block w-3 h-3 bg-white rounded-full animate-ping"
+                        }),
+                        M.jsx("p", {
+                            className: "text-lg md:text-xl font-semibold text-white",
+                            children: "Kindly join Palestine-Bleeds community on WhatsApp and contribute!"
+                        })
+                    ]
                 }),
+                // Button below
                 M.jsx("a", {
                     href: "https://chat.whatsapp.com/BSBVjzHGQMeEBZZVWbbbGz",
                     target: "_blank",
                     rel: "noopener noreferrer",
-                    className:
-                        "block mx-auto bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-800 hover:to-gray-900 text-white font-semibold py-4 px-6 rounded-xl text-center transition-all duration-300 transform hover:scale-105 border border-green-600",
+                    className: "inline-block bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-800 hover:to-gray-900 text-white font-semibold py-4 px-6 rounded-xl text-center transition-all duration-300 transform hover:scale-105 border border-green-600",
                     whileHover: { y: -2 },
                     whileTap: { scale: 0.98 },
                     children: M.jsx("p", {
-                    className: "text-lg md:text-xl font-semibold text-white",
-                    children : "Join now!",
+                        className: "text-lg md:text-xl font-semibold text-white",
+                        children: "Join now!"
+                    })
                 })
-            })]
+            ]
         })
-    })
+    });
 }
+
+
 
 function Yw({
     title: e,
@@ -13477,9 +13488,10 @@ const individuals = [
     isPakDonationPossible: false,     //local pakistani donation procedure is not available
     isWhatsappAvailable: false,       //whatsapp link is available
     isLinkedinAvailable: true,      //linkedin link is not available
-    isLinktreeAvailable: false,       //lintree link is not available
-    isChuffedAvailable: false,       //chuffed link is not available
-    isPaypalAvailable: false,        //paypal is not available
+    isLinktreeAvailable: false,       //lintree link is available
+    isChuffedAvailable: false,       //chuffed link is available
+    isPaypalAvailable: false,        //paypal is available
+
 
     //donation links and social media contacts:
 
