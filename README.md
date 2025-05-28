@@ -14,8 +14,6 @@
 ### 1. Ahmar Ali
 I have collected and verified the donation links; initially and after each public contribution as well.
 
-To contact me:
-
 https://github.com/Ahmar004/
 
 https://www.linkedin.com/in/ahmarali2004/
@@ -26,8 +24,6 @@ https://www.linkedin.com/in/ahmarali2004/
 
 ### 1. Ahmar Ali
 I have collected and verified the donation links; initially and after each public contribution as well.
-
-To contact me:
 
 https://github.com/Ahmar004/
 
