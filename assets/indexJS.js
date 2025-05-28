@@ -12243,8 +12243,21 @@ function Qw() {
             children: [M.jsx("span", {
                 className: "inline-block w-3 h-3 bg-white rounded-full animate-ping"
             }), M.jsx("p", {
-                className: "text-lg md:text-xl font-semibold text-white",
-                children: "Kindly join Palestine-Bleeds community on WhatsApp and contribute, link is at the bottom!"
+                    className: "text-lg md:text-xl font-semibold text-white",
+                    children : "Kindly join Palestine-Bleeds community on WhatsApp and contribute!",
+                }),
+                M.jsx("a", {
+                    href: "https://chat.whatsapp.com/BSBVjzHGQMeEBZZVWbbbGz",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className:
+                        "block mx-auto bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-800 hover:to-gray-900 text-white font-semibold py-4 px-6 rounded-xl text-center transition-all duration-300 transform hover:scale-105 border border-green-600",
+                    whileHover: { y: -2 },
+                    whileTap: { scale: 0.98 },
+                    children: M.jsx("p", {
+                    className: "text-lg md:text-xl font-semibold text-white",
+                    children : "Join now!",
+                })
             })]
         })
     })
@@ -13113,6 +13126,39 @@ const individuals = [
 
   },
 
+  //     //------------------------ //     
+  //     //Ahmad Matar:------------------------ //     
+  //     //------------------------ //   
+  // 
+  // { //name: "Ahmad Matar", 
+  //     sideNote: "For verification of residence in Gaza and for verifying/sharing payments, kindly contact him directly through LinkedIn.",
+  //  
+  //  //couple booleans for displaying ways of donations upon availability: 
+     
+  //     isContactAvailable: false,       //contact number is available
+  //     isGofundmeAvailable: true,       //gofundme link is available
+  //     isPakDonationPossible: true,     //pakistani donation procedure is available
+  //      isWhatsappAvailable: false,       //whatsapp link is available
+  //      isLinkedinAvailable: true,      //linkedin link is available
+  //      isLinktreeAvailable: false,      //lintree link is not available
+  //      isChuffedAvailable: false,       //chuffed link is not available
+  //      isPaypalAvailable: false,        //paypal is available
+
+  //      //donation links and social media contacts:
+
+  //      gofundmeLink: //     
+  //      { name: "His GoFundMe Campaign", 
+  //        url: "https://www.gofundme.com/f/ahmed-matars-fundraiser" }, 
+  // 
+  //        pakDonationProcedure: [      
+  // 
+  //        { 
+  //            name: "A donation procedure for Pakistanis is available, kindly contact Ahmad directly on LinkedIn to get the details." } //     ],
+  // 
+  //      linkedinLink:     {         name: "His LinkedIn", url: "https://www.linkedin.com/in/ahmad-matar-%F0%9F%8D%89-740342b5/" //     } 
+  // 
+  //    },
+
     //------------------------
     //Dr Abdallah H. Abdou:------------------------
     //------------------------
@@ -13212,11 +13258,11 @@ const individuals = [
   },
 
     //------------------------
-    //Yousef Skaik:------------------------
+    //Muhammed Yousef Skaik:------------------------
     //------------------------
 
   {
-    name: "Yousef Skaik",
+    name: "Muhammed Skaik",
     contact: "Contact: +970 598 182 898",
     sideNote: "For verification of residence in Gaza and for verifying/sharing payments, kindly contact him directly through WhatsApp.",
     
@@ -13377,6 +13423,40 @@ const individuals = [
     linkedinLink:
     {
         name: "His LinkedIn", url: "https://www.linkedin.com/in/mhammedkhaled0/"
+    }
+
+  },
+
+      //------------------------
+    //Nour Mazen:------------------------
+    //------------------------
+
+  {
+    name: "Nour Abu El Qumboz",
+    //contact: "",
+    sideNote: "For verification of residence in Gaza and for verifying/sharing payments, kindly contact him directly through WhatsApp.",
+    
+    //couple booleans for displaying ways of donations upon availability:
+
+    isContactAvailable: true,       //contact number is not available
+    isGofundmeAvailable: true,       //gofundme link is available
+    isPakDonationPossible: false,     //local pakistani donation procedure is not available
+    isWhatsappAvailable: false,       //whatsapp link is available
+    isLinkedinAvailable: true,      //linkedin link is not available
+    isLinktreeAvailable: false,       //lintree link is available
+    isChuffedAvailable: false,       //chuffed link is available
+    isPaypalAvailable: false,        //paypal is available
+
+
+    //donation links and social media contacts:
+
+
+    gofundmeLink:
+    { name: "Her GoFundMe Campaign", url: "https://gofund.me/e75e7c6a" },
+
+    linkedinLink:
+    {
+        name: "Her LinkedIn", url: "https://www.linkedin.com/in/nourmazenqumboz/"
     }
 
   },
