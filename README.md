@@ -45,7 +45,7 @@ https://www.linkedin.com/in/shahzaib-ali-khan-64511224b/
 
 ##
 
-### This is an open-source project, feel free to join hands and contribute!
+### This is an Open-source project, feel free to join hands and contribute!
 
 ### May Allah bless both of the contributors who have voluntarily enhanced the UI of this website for the love of Palestine.
 
