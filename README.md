@@ -1,4 +1,4 @@
-## NOTE: The current (most-updated) branch used for deployment is the "individual_Cases_feature" branch, so if anyone wnats to contribute, then they should see that branch.
+## NOTE: The current (most-updated) branch used for deployment is the "individual_Cases_feature" branch, so if anyone wants to contribute, then they should see that branch.
 
 # Palestine-Bleeds
 **This is for saving the verified Organisations & verified donation links to help Palestinians,**
